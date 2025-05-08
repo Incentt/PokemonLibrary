@@ -7,7 +7,7 @@
 
 import Foundation
 
-class PokemonDetailResponse: Decodable {
+struct  PokemonDetailResponse: Decodable  {
     let name: String
     let abilities: [Ability]
     let height: Int

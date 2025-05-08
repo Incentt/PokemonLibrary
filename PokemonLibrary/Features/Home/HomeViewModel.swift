@@ -22,7 +22,6 @@ final class HomeViewModel: ObservableObject {
         }
     }
     @Published private(set) var state: HomeViewState = .loading
-    
     func fetchPokemons() {
         updateState(.loading)
 
